@@ -1,5 +1,7 @@
 server.port: 9001
 
+biz.application.name.limit: 10
+
 spring:
   application.name: biz-application
   cloud.config:
