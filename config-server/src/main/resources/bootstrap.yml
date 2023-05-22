@@ -4,7 +4,7 @@ spring:
   application.name: config-server
   cloud.config:
     server.git:
-      uri: https://github.com/alejandro-du/vaadin-microservices-demo-config.git
+      uri: https://github.com/codeonedigest/codeonedigest-vaadin-microservices-demo-config.git
       default-label: master
 
 eureka:
