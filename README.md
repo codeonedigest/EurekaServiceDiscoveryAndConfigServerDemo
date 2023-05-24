@@ -1,6 +1,6 @@
-# Microservices with Vaadin demo
+# Microservices demo
 
-A microservices demo implemented with [Spring Cloud Netflix](http://cloud.spring.io/spring-cloud-netflix/) and [Vaadin](https://vaadin.com).
+A microservices demo implemented with [Spring Cloud Netflix](http://cloud.spring.io/spring-cloud-netflix/).
 
  
 
@@ -35,19 +35,19 @@ cd EurekaServiceDiscoveryAndConfigServerDemo/biz-application
 java -jar target/biz-application-0.0.1-SNAPSHOT.jar
 ```
 
-**4) Start an instance of the `admin-application` microservice (Vaadin app):**
+**4) Start an instance of the `admin-application` microservice :**
 ```
 cd EurekaServiceDiscoveryAndConfigServerDemo/admin-application
 java -jar target/admin-application-0.0.1-SNAPSHOT.jar
 ```
 
-**5) Start an instance of the `news-application` microservice (Vaadin app):**
+**5) Start an instance of the `news-application` microservice  :**
 ```
 cd EurekaServiceDiscoveryAndConfigServerDemo/news-application
 java -jar target/news-application-0.0.1-SNAPSHOT.jar
 ```
 
-**6) Start an instance of the `website-application` microservice (Vaadin app):**
+**6) Start an instance of the `website-application` microservice  :**
 ```
 cd EurekaServiceDiscoveryAndConfigServerDemo/website-application
 java -jar target/website-application-0.0.1-SNAPSHOT.jar
